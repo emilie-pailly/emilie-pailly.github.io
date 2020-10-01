@@ -33,17 +33,25 @@ body {
 
 .accueil {
     position:relative; 
-    margin-bottom:150px;
-    margin-top:250px;
+    margin-bottom:15px;
+    margin-top:50px;
 }
 
 .accueil h1 {
-    font-size:100px; 
+    font-size:100px;
     text-align:center;
     font-family:permanent marker;
     color:white;
-    padding:50px;
-    margin:100px;
+    margin-bottom:40px; 
+    margin-top:100px; 
+}
+
+.accueil h2 {
+  font-size:30px; 
+  font-family:permanent marker; 
+  color:white; 
+  margin-bottom:200px;
+  text-align:center;
 }
 
 .ml11 {
@@ -212,14 +220,13 @@ body {
 
 .footer {
     text-align:center;
-    margin:10px; 
-    padding:12px 12px;
+    margin: 10px; 
     background-color: black;
     opacity:0.8;
     font-size:20px; 
     font-family:handlee;
     color:white;
-    height:150px;
+    height:250px;
 }
 
 .footer h4{
@@ -228,6 +235,11 @@ body {
     font-size:25px; 
     color:white; 
     text-decoration:underline;
+}
+
+.footer h5 {
+  font-size:10px; 
+  font-family:handlee;
 }
 
 .langues {
@@ -536,4 +548,68 @@ body {
 /* Make all right containers behave like the left ones */
     .right {
     left: 0%;
+}
+
+/* responsive telephone */
+
+@media screen and (max-width: 375px) {
+  
+  body {
+    background-image : url(alex-loup-bj8L_87yxcA-unsplash.jpg);
+    background-position:center; 
+    background-attachment: fixed;
+  }
+
+  .nav {
+    font-size:15px;
+  }
+
+  .nav li {
+    display:flex; 
+    flex-direction:column;
+  }
+
+  .accueil {
+    position:relative; 
+    margin-bottom:150px;
+    margin-top:10px;
+  }
+
+  .accueil  h1 {
+    font-size:40px; 
+    margin:auto;
+    padding:auto;
+  }
+
+  .me h2 {
+    font-size:20px;
+  }
+
+  .parcours h3 {
+    font-size:20px;
+  }
+
+  .stage h4 {
+    font-size:20px; 
+  }
+
+  .competences h5 {
+    font-size:20px; 
+  }
+
+  .competences h6 {
+    font-size:15px; 
+  }
+
+  .competences_2 h1 {
+    font-size:15px; 
+  }
+
+  .langues h6 {
+    font-size:20px;
+  }
+
+  .footer h4 {
+    font-size:20px;
+  }
 }
