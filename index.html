@@ -1,241 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mon site</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lobster&family=Permanent+Marker&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" class="__web-inspector-hide-shortcut__"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    
-  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-
-<body>
-    <header>
-        <nav class="nav">
-            <ul>
-            <li><a href="#accueil" class="colorVisit">Accueil</a></li>
-            <li><a href="#parcours" class="colorVisit">Mon parcours</a></li>
-            <li><a href="#experiences" class="colorVisit">Mes expériences</a></li>
-            <li><a href="#competences" class="colorVisit">Mes compétences</a></li>
-            <li><a href="#langues" class="colorVisit">Langues</a></li>
-            <li><a href="#contact" class="colorVisit">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <section class="accueil" id="accueil">
-        <h1 class="ml11">
-            <span class="text-wrapper">
-                <span class="line line1"></span>
-                <span class="letters">BIENVENUE</span>
-            </span>
-        </h1>
-        <h2>Je m'appelle Emilie et je suis apprentie Développeuse à la CCI</h2>
-    </section>
-
-    <section class="me" id="accueil">
-        <div class="parallax"></div>
-        <div style="height:450px; background-color:white; opacity:0.9; font-size:20px;">
-           <h2>Qui suis-je?</h2>
-           <div class="photo">
-           <img src="20200831_172948 (2).jpg" style="width:300;height:250px;">
-            <p>Je m'appelle PAILLY Emilie, j'ai obtenu mon Baccalauréat Littéraire spécialité anglais en 2016 au lycée
-                Anova à Paita. En ce qui concerne mes poursuites d'études, en 2017 j'ai commencé une licence LEA
-                (Espagnol-Anglais) à l'Université que je n'ai pas aimé... Pourtant j'aime les langues et c'est la raison
-                pour laquelle j'ai souhaité intégrer cette licence mais je trouvais que c'était beaucoup trop théorique.
-                Je
-                me suis donc orientée vers un BTS afin d'avoir des expériences professionnelles grâce aux stages. J'ai
-                donc commencé le BTS Tourisme en 2018 au lycée Lapérouse
-                que j'ai obtenu en 2019. Après l'obtention de mon BTS, je souhaitais avoir un diplôme différent de
-                celui-ci afin de me spécialiser dans un domaine plus précis pour acquérir des compétences et des
-                expériences
-                différentes pour mon avenir professionnel. En faisant des recherches, j'ai vu la formation "Développeur
-                Web
-                et Web Mobile" que j'ai trouvé très intéressante. En effet, lors de mon BTS Tourisme j'avais déjà été
-                amené
-                à travailler sur la réalisation d'un site internet à l'aide d'un CMS ainsi qu'un blog et c'est cela qui
-                m'a donné envie de poursuivre mes études dans ce domaine. J'ai donc décidé de
-                postuler à cette formation afin d'approfondir mes connaissances et d'en acquérir de nouvelles ... Me
-                voilà
-                maintenant alternante au sein de la formation "Développeur Web et Web Mobile" promo 2020-2022.</p>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#accueil">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="accueil">
+                <ul class="nav navbar-nav">
+                    <li class>
+                        <a href="#about">Accueil</a>
+                    </li>
+                    <li class>
+                        <a href="#me">A propos</a>
+                    </li>
+                    <li class>
+                        <a href="#parcours">Parcours</a>
+                    </li>
+                    <li class>
+                        <a href="#experiences">Expériences</a>
+                    </li>
+                    <li class>
+                        <a href="#competences">Compétences</a>
+                    </li>
+                    <li class>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
-        <div class="parallax"></div>
+    </nav>
+
+    <section class="header" id="about">
+        <h1>BIENVENUE</h1>
+        <h2>Je m'appelle PAILLY Emilie et je suis apprentie Développeuse à la CCI</h2>
+        <a href="cv_2020.pdf" target="_blank" class="button1">Télécharger mon CV</a>
+        <a href="lettre_de_motivation.pdf" target="_blank" class="button2">Télécharger ma lettre de motivation</a>
+    </section>
+
+    <section class="me" id="me">
+        <div class="parallax">
+        <div style="height:470px; background-color:white; opacity:0.9; margin-left:15px; margin-right:15px;">
+            <h3>Qui suis-je?</h3>
+            <div class="photo">
+            <img src="20200831_172948 (2).jpg" style="width:300;height:250px; border-radius:50%;">
+             <p>Je m'appelle PAILLY Emilie, j'ai obtenu mon Baccalauréat Littéraire spécialité anglais en 2016 au lycée
+                 Anova à Paita. En ce qui concerne mes poursuites d'études, en 2017 j'ai commencé une licence LEA
+                 (Espagnol-Anglais) à l'Université que je n'ai pas aimé... Pourtant j'aime les langues et c'est la raison
+                 pour laquelle j'ai souhaité intégrer cette licence mais je trouvais que c'était beaucoup trop théorique.
+                 Je
+                 me suis donc orientée vers un BTS afin d'avoir des expériences professionnelles grâce aux stages. J'ai
+                 donc commencé le BTS Tourisme en 2018 au lycée Lapérouse
+                 que j'ai obtenu en 2019. Après l'obtention de mon BTS, je souhaitais avoir un diplôme différent de
+                 celui-ci afin de me spécialiser dans un domaine plus précis pour acquérir des compétences et des
+                 expériences
+                 différentes pour mon avenir professionnel. En faisant des recherches, j'ai vu la formation "Développeur
+                 Web
+                 et Web Mobile" que j'ai trouvé très intéressante. En effet, lors de mon BTS Tourisme j'avais déjà été
+                 amené
+                 à travailler sur la réalisation d'un site internet à l'aide d'un CMS ainsi qu'un blog et c'est cela qui
+                 m'a donné envie de poursuivre mes études dans ce domaine. J'ai donc décidé de
+                 postuler à cette formation afin d'approfondir mes connaissances et d'en acquérir de nouvelles ... Me
+                 voilà
+                 maintenant alternante au sein de la formation "Développeur Web et Web Mobile" promo 2020-2022.</p>
+             </div>
+         </div>
+        </div>
+         <div class="parallax"></div>
     </section>
 
     <section class="parcours" id="parcours">
         <div class="parallax"></div>
-        <div style="height:1400px; background-color:white; opacity:0.9; font-size:20px;">
-            <h3>Mon parcours:</h3>
-            <div class="timeline">
-                 <div class="container right">
-                    <div class="content">
-                        <i class="fas fa-graduation-cap"></i>
-                        <p class="annee">2020-2022</p>
-                        <p class="diplome">Formation Développeur Web & Web Mobile</p>
-                        <p class="lieu">CCI - Nouméa</p>
-                </div>
-             </div>
-
-            <div class="container left">
-                <div class="content">
-                     <i class="fas fa-graduation-cap"></i>
-                     <p class="annee">17 Août - 11 Septembre 2020</p>
-                     <p class="diplome">Préparatoire à la formation Développeur Web et Web Mobile</p>
-                     <p class="lieu">CCI - Nouméa</p>
+            <div style="height:970px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
+                <h4>Mon parcours :</h4>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="education-block">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="green-divider"></div>
+                                    <p class="annee">2020 - 2022</p>
+                                    <p class="diplome">Formation en alternance Développeur Web et Web Mobile</p>
+                                    <p class="lieu">CCI - Nouméa</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="education-block">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="green-divider"></div>
+                                    <p class="annee">17 Août - 11 Septembre 2020</p>
+                                    <p class="diplome">Préparation formation Développeur Web et Web Mobile</p>
+                                    <p class="lieu">CCI - Nouméa</p>
+                                </div>
+                            </div>    
+                            <div class="col-md-6">
+                                <div class="education-block">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="green-divider"></div>
+                                    <p class="annee">2018 - 2019</p>
+                                    <p class="diplome">BTS Tourisme</p>
+                                    <p class="lieu">Lycée Lapérouse - Nouméa</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="education-block">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="green-divider"></div>
+                                    <p class="annee">2017</p>
+                                    <p class="diplome">1ère année de Licence L.E.A (espagnol-anglais)</p>
+                                    <p class="lieu">Université de la Nouvelle-Calédonie</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="education-block">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="green-divider"></div>
+                                    <p class="annee">2014-2016</p>
+                                    <p class="diplome">Baccalauréat Littéraire spécialité anglais</p>
+                                    <p class="lieu">Lycée Apollinaire Anova - Paita</p>
+                                </div>
+                            </div>
                 </div>
             </div>
+        </section>
 
-            <div class="container right">
-                <div class="content">
-                    <i class="fas fa-graduation-cap"></i>
-                    <p class="annee">2018-2019</p>
-                    <p class="diplome">BTS Tourisme</p>
-                    <p class="lieu">Lycée Lapérouse - Nouméa</p>
+        <section class="experiences" id="experiences">
+            <div class="parallax"></div>
+            <div style="height:840px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px">
+            <h5>Mes expériences professionnelles :</h5>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="main-timeline">
+                       <div class="timeline">
+                           <a href="#" class="timeline-content">
+                               <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                               </div>
+                               <div class="inner-content">
+                                   <p class="entreprise">UNITOURS NC</p>
+                                   <p class="poste">Conception de produits touristiques</p>
+                                   <p class="lieu">Centre-Ville, Nouméa</p>
+                                   <p class="dates">
+                                        <span><small class="glyphicon glyphicon-time"></small></span>
+                                        <span>1er - 26 Juillet 2019</span>
+                                   </p>
+                                </div>
+                           </a>
+                       </div>
+                       <div class="timeline">
+                           <a href="#" class="timeline-content">
+                               <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                               </div>
+                               <div class="inner-content">
+                                   <p class="entreprise">PARADISE EVENTS</p>
+                                   <p class="poste">Assistante événementiel</p>
+                                   <p class="lieu">7ème, Nouméa</p>
+                                   <p class="dates">
+                                        <span><small class="glyphicon glyphicon-time"></small></span>
+                                        <span>12 Novembre - 7 Décembre 2018</span>
+                                    </p>
+                                </div>
+                           </a>
+                       </div>
+                       <div class="timeline">
+                           <a href="#" class="timeline-content">
+                               <div class="timeline-icon">
+                                   <i class="fas fa-briefcase"></i>
+                               </div>
+                               <div class="inner-content">
+                                   <p class="entreprise">Nord Sud Power "MAGIC EVENTS"</p>
+                                   <p class="poste">Assistante événementiel</p>
+                                   <p class="lieu">Ducos, Nouméa</p>
+                                   <p class="dates">
+                                        <span><small class="glyphicon glyphicon-time"></small></span>
+                                        <span>25 Juin - 20 Juillet 2018</span>
+                                   </p> 
+                                </div>
+                           </a>
+                       </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+            </div>
+        </section>
+
+        <section class="competences" id="competences">
+            <div class="parallax"></div>
+            <div style="height:750px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;"> 
+            <h6>Mes compétences : </h6>
+            <h1>Outils bureautiques</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                            <p>WORD 100%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                            <p>POWERPOINT 100%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <p>PUBLISHER 80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                <p>EXCEL 70%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="container left">
-                <div class="content">
-                    <i class="fas fa-graduation-cap"></i>
-                    <p class="annee">2017</p>
-                    <p class="diplome">1ère année de Licence LEA (Espagnol-Anglais)</p>
-                    <p class="lieu">Université de la Nouvelle-Calédonie</p>
-                </div>
+            <div class="header">
+                <h2>Langages de programmation</h2>
             </div>
-
-            <div class="container right">
-                <div class="content">
-                    <i class="fas fa-graduation-cap"></i>
-                    <p class="annee">2014-2016</p>
-                    <p class="diplome">Baccalauréat Littéraire - Anglais renforcé</p>
-                    <p class="lieu">Lycée Apollinaire Anova - Paita</p>
-                </div>
-            </div>
-        <div class="parallax"></div>
-    </section>
-
-    <section class="stage" id="experiences">
-        <div class="parallax"></div>
-        <div style="height:1000px; background-color:white; opacity:0.9; font-size:20px;">
-            <h4>Mes expériences professionnelles :</h4>
-            <div class="timeline">
-                <div class="container left">
-                    <div class="content">
-                        <p class="dates">1er - 26 Juillet 2019</p>
-                        <p class="entreprise">UNITOURS NC</p>
-                        <p class="poste">Conception de produits touristiques</p>
-                        <p class="lieu">Centre-Ville, Nouméa</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                <p>HTML 80%</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="container right">
-                    <div class="content">
-                        <p class="dates">12 Novembre - 7 Décembre 2018</p>
-                        <p class="entreprise">PARADISE EVENTS</p>
-                        <p class="poste">Assistante événementiel</p>
-                        <p class="lieu">7ème km, Nouméa</p>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                <p>CSS 75%</p>
+                            </div> 
+                        </div>
                     </div>
-                </div>
-
-                <div class="container left">
-                    <div class="content">
-                        <p class="dates">25 Juin - 20 Juillet 2018</p>
-                        <p class="entreprise">Nord Sud Power "MAGIC EVENTS"</p>
-                        <p class="poste">Assistante événementiel</p>
-                        <p class="lieu">Ducos, Nouméa</p>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                <p>JAVASCRIPT 40%</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-          
-        </div>
-        <div class="parallax"></div>
-    </section>
-
-    <section class="competences"  id="competences">
-        <div class="parallax"></div>
-        <div style="height:1100px; background-color:white; opacity:0.9; font-size:20px;">
-            <h5>Mes compétences :</h5>
-            <h6>Mes compétences professionnelles</h6>
-            <div class="competences_1" style="display: flex; justify-content: space-around;">
-                <img src="traffic-sign-809006_1920.jpg" style="width:500px;height:350px;"> 
-                <ul>
-                    <li>Accueil téléphonique</li>
-                    <li>Conception d'un package pour le Pérou</li>
-                    <li>Conception d'un circuit ville</li>
-                    <li>Guidage d'un circuit ville</li>
-                    <li>Vente d'un produit touristique (en français et en anglais)</li>
-                    <li>Réalisation de flyers (stage UNITOURS)</li>
-                    <li>Organisation d'événements (stage PARADISE EVENTS)</li>
-                    <li>Organisation d'un "brunchstorming" du Tourisme</li>
-                    <li>Conception de nouveaux produits touristiques (stage UNITOURS)</li>
-                    <li>Réalisation de flyers pour un événement (stage PARADISE EVENTS)</li>
-                </ul>
-            </div>
-            <div class="competences_2">
-                <h1>Mes compétences informatiques</h1>
-                <div class="image">
-                <img src="web-3963945_1920.jpg" style="width:500px;height:350px;">
-                <ul>
-                    <li>Word (maîtrise)</li>
-                    <li>Excel (maîtrise)</li>
-                    <li>Powerpoint (maîtrise)</li>
-                    <li>Publisher (maîtrise)</li>
-                    <li>Logiciel AMADEUS (notion)</li>
-                    <li>Création d'un site internet (Wix.com)</li>
-                    <li>Réalisation d'un montage vidéo (Movie Maker)</li>
-                    <li>Création d'un blog (Blogger)</li>
-                    <li>Réalisation de flyers et autres suppports visuels (CANVA et  Publisher)</li>
-                </ul>
-        </div>
-        <div class="parallax"></div>
-    </section>
-
-    <section class="langues" id="langues">
-        <div class="parallax"></div>
-        <div style="height:515px; width:600px; background-color:white; opacity:0.9; font-size:20px;">
-            <h6>Langues :</h6>
-                <h1>Français</h1>
-                    <div class="progress">
-                    <div class="progress-done-0 bar" data-done-0="100">
-                    100%
-                    </div>
-                <h2>Anglais</h2>
-                    <div class="progress">
-                    <div class="progress-done-1 bar" data-done-1="85">
-                    85%
-                    </div>
-                <h3>Espagnol</h3>
-                    <div class="progress">
-                    <div class="progress-done-2 bar" data-done-2="80">
-                    80%
+                    <div class="col-md-6">
+                     <div class="progress" style="height:40px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                            <p>PYTHON 20%</p>
+                        </div>
                     </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                                <p>BOOTSTRAP 25%</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="progress" style="height:40px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                <p>WORDPRESS 40%</p> 
+                            </div>
+                        </div>
                     </div>
             </div>
-        </div>
-        <div class="parallax"></div>
-    </section>
+        </section>
 
-    <section class="footer" id="contact">
-        <a href="#accueil">
-        <i class="fas fa-chevron-up"></i>
-        </a>
-        <h4>Contact</h4>
-        <p>Téléphone : 72 29 00</p>
-        <p>E-mail : mily.pailly1912@gmail.com</p>
-        <h5>© 2020 – PAILLY Emilie</h5>
-
-    </section>
-
-    <script src="script.js"></script>
-
+        <section class="footer" id="contact">
+            <a href="#accueil">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+            <h4>Contact</h4>
+            <p>Téléphone : 72 29 00</p>
+            <p>E-mail : mily.pailly1912@gmail.com</p>
+            <h5>© 2020 – PAILLY Emilie</h5>
+        </section>
 </body>
+</html>
+

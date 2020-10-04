@@ -1,615 +1,457 @@
 body {
-    background-image:url(alex-loup-bj8L_87yxcA-unsplash.jpg);
+    background-image:url(roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
     background-size:cover;
     background-repeat:no-repeat; 
     background-position:center;
     background-attachment:fixed;
 }
 
-.nav {
-    list-style-type: none;
-    text-align:center;
-    margin:20px; 
-    padding:14px 16px;
-    background-color: black;
-    opacity:0.8;
-    font-size:20px; 
-    font-family:permanent marker;
-    color:white;
+.parallax {
+  background-image:url(roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+  height:100%; 
+  background-attachment:scroll; 
+  background-position:center; 
+  background-repeat:no-repeat; 
+  background-size:cover; 
 }
 
-.nav li {
-    display:inline-block; 
-    margin:30px; 
+.navbar-header {
+  font-size:25px;
+  font-family:handlee;
 }
 
-.colorVisit {
+.navbar .navbar-nav {
+  display:inline-block;
+  float:none; 
+  vertical-align:top;
+}
+
+.navbar-nav {
+  margin:7.5px -15px;
+}
+
+.navbar-toggle .icon-bar {
+  display:block;
+  width:22px; 
+  height:2px; 
+  border-radius:1px;
+}
+
+.icon-bar {
+  background-color:black;
+}
+
+.header {
+  position:relative; 
+  margin-bottom:15px; 
+  margin-top:50px; 
+}
+
+.header h1 {
+  font-size:100px; 
+  text-align:center; 
+  font-family:handlee; 
+  margin-bottom:40px; 
+  margin-top:200px;
   color:white;
 }
 
-.colorVisit:focus{
-  color:blue;
-}
-
-.accueil {
-    position:relative; 
-    margin-bottom:15px;
-    margin-top:50px;
-}
-
-.accueil h1 {
-    font-size:100px;
-    text-align:center;
-    font-family:permanent marker;
-    color:white;
-    margin-bottom:40px; 
-    margin-top:100px; 
-}
-
-.accueil h2 {
-  font-size:30px; 
-  font-family:permanent marker; 
-  color:white; 
-  margin-bottom:200px;
+.header h2 {
+  font-size:40px; 
+  font-family:handlee; 
   text-align:center;
+  margin-bottom:65px;
+  color:white;
 }
 
-.ml11 {
-    font-weight: 700;
-    font-size: 3.5em;
-}
-  
-  .ml11 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-}
-  
-  .ml11 .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 3px;
-    background-color: #fff;
-    transform-origin: 0 50%;
-}
-  
-  .ml11 .line1 { 
-    top: 0; 
-    left: 0;
-}
-  
-  .ml11 .letter {
-    display: inline-block;
-    line-height: 1em;
+.button1 {
+  font-family:handlee; 
+  font-weight:bold; 
+  font-size:30px;
+  color:white;
+  border:1px solid white; 
+  display:inline-block;
+  margin-top:20px; 
+  padding:18px 50px; 
+  border-radius:18px; 
+  text-align:center;
+  background:transparent;
+  transition:all 0.3s ease-in 0s;
+  margin-left:250px;
 }
 
-.parallax {
-    background-image: url(alex-loup-bj8L_87yxcA-unsplash.jpg);
-    height:100%;
-    background-attachment:scroll;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
+.button2 {
+  font-family:handlee; 
+  transition:all 0.3s ease-in 0s;
+  font-weight:bold; 
+  font-size:30px;
+  color:white;
+  border:1px solid white;; 
+  display:inline-block;
+  margin-top:20px; 
+  padding:18px 50px; 
+  border-radius:18px; 
+  text-align:center;
+  background:transparent;
+  margin-right:30px;
+  margin-bottom:150px;
+}
+
+.me h3 {
+  font-size:40px; 
+  font-family:permanent marker; 
+  text-align:center; 
+  text-decoration:underline;
+}
+
+.me {
+  position:relative;
+  margin-top:350px; 
+  margin-bottom:300px; 
 }
 
 .photo {
-  display:flex;
+  display:flex; 
   margin:15px; 
 }
 
-.me h2 {
-    font-size:45px;
-    font-style:italic; 
-    text-align:center; 
-    font-family:permanent marker; 
-    color:black;
-    text-decoration:underline;
-}
-
-.me p{
-    font-size:20px; 
-    font-family:handlee; 
-    text-align:justify;  
-    color:black;
-    margin:15px;
-}
-
-.parcours h3 {
-    font-size:45px; 
-    text-decoration:underline; 
-    text-align:center; 
-    font-family:permanent marker;
-    color:black;
+.me p {
+  font-size:20px; 
+  font-family:handlee; 
+  text-align:justify; 
+  margin:15px;
 }
 
 .parcours {
-    position:relative;
-    margin-top:300px;
-    margin-bottom:300px;
+  position:relative; 
+  margin-top:300px; 
+  margin-bottom:300px;
+}
+
+.parcours h4 {
+  font-family:permanent marker; 
+  font-size:40px; 
+  text-decoration:underline; 
+  text-align:center; 
+  margin-bottom:40px;
+}
+
+.education-block {
+  width:100%; 
+  margin:0 auto; 
+  text-align:center; 
+  padding:30px; 
+  background:black;
+  opacity:0.9; 
+  border-radius:10px; 
+  border: 2px solid black; 
+  color:white;
+  font-family:handlee; 
+  margin-bottom:15px; 
+  height:280px;
+}
+
+.green-divider {
+  width:100px; 
+  height:2px; 
+  background:white; 
+  margin:0 auto; 
+  margin-bottom:30px;
+  margin-top:30px;
 }
 
 .annee {
-  font-style:italic;
+  font-style:italic; 
+  margin-bottom:25px;
+  font-size:15px;
+}
+
+.education-block i {
+  font-size:25px;
 }
 
 .diplome {
-  font-weight:bold;
+  font-weight:bold; 
+  margin-bottom:25px;
+  font-size:22px;
+  color:brown;
 }
 
-.stage h4{
-    font-family:permanent marker;
-    font-size:45px; 
-    color:black; 
-    text-decoration:underline; 
+.lieu {
+  margin-bottom:25px;
+  font-size:15px;
+}
+
+.experiences h5 {
+  font-size:40px; 
+  font-family:permanent marker; 
+  text-decoration:underline;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.experiences {
+  position:relative; 
+  margin-top:300px; 
+  margin-bottom:300px;
+}
+
+.main-timeline{ font-family: 'Roboto', sans-serif; }
+.main-timeline:before{
+    content: '';
+    background-color:black;
+    height: 100%;
+    width: 15px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 0 0 0 25px;
+    margin: 0 0 30px 10px;
+    float: right;
+    position: relative;
+}
+.main-timeline .timeline:after{
+    content: '';
+    background-color: #734D8E;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px black, 0 0 10px #333;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -7px;
+    top: 50%;
+}
+.main-timeline .timeline-content{
+    color: #555;
+    background: linear-gradient(to right,#734D8E,#B26BC6 22%);
+    padding: 0 0 0 120px;
+    display: block;
+    position: relative;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-icon{
+    color: #fff;
+    font-size: 45px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+.main-timeline .inner-content{
+    color: #555;
+    background-color:black;
+    min-height: 110px;
+    padding: 15px 15px 15px 0;
+    position: relative;
+    color:white;
+    font-family:handlee; 
+    font-size:20px;
     text-align:center;
 }
-
-.stage {
-    position:relative; 
-    margin-bottom:300px; 
-    margin-top:300px;
+.main-timeline .inner-content:before{
+    content: '';
+    background-color:black;
+    height: 98%;
+    width: 80px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -37px;
+    top: 50%;
+    z-index: -1;
 }
-
-.dates {
-  font-style:italic; 
+.main-timeline .title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+.main-timeline .description{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){
+    padding: 0 25px 0 0;
+    margin: 0 10px 30px 0;
+    float: left;
+}
+.main-timeline .timeline:nth-child(even):after{
+    left: auto;
+    right: -8px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{
+    padding: 0 120px 0 0;
+    clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0 100%, 0 0);
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    left: auto;
+    right: 25px;
+}
+.main-timeline .timeline:nth-child(even) .inner-content{ padding: 15px 10px 15px 15px; }
+.main-timeline .timeline:nth-child(even) .inner-content:before{
+    left: auto;
+    right: -37px;
+}
+.main-timeline .timeline:nth-child(4n+2):after{ background-color: #1c6f82; }
+.main-timeline .timeline:nth-child(4n+2) .timeline-content{
+    background: linear-gradient(to left,#1c6f82,#4491A2 22%);
+}
+.main-timeline .timeline:nth-child(4n+3):after{ background-color: #4e5db2; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-content{
+    background: linear-gradient(to right,#4e5db2,#7582D1 22%);
+}
+.main-timeline .timeline:nth-child(4n+4):after{ background-color: #525156; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content{
+    background: linear-gradient(to left,#525156,#686C75 22%);
+}
+@media screen and (max-width:767px){
+    .main-timeline:before{
+        left: 19px;
+        transform: translateX(0);
+    }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        margin: 0 0 30px;
+        padding: 0 0 0 25px;
+    }
+    .main-timeline .timeline:after,
+    .main-timeline .timeline:nth-child(even):after{
+        left: 3px;
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        font-size: 30px;
+        left: 23px;
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 0 0 0 90px;
+        clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
+    }
+    .main-timeline .inner-content:before,
+    .main-timeline .timeline:nth-child(even) .inner-content:before{
+        width: 50px;
+        left: -25px;
+    }
+}
+@media screen and (max-width:567px){
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 0 0 0 65px;
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        font-size: 21px;
+        left: 9px;
+    }
+    .main-timeline .title{ font-size: 18px; }
 }
 
 .entreprise {
-  text-decoration:underline; 
+  font-size:20px; 
+  color:brown; 
+  text-decoration:underline;
+  margin-bottom:25px; 
 }
 
 .poste {
+  margin-bottom:25px; 
   font-weight:bold; 
 }
 
-.competences h5 {
-    font-family:permanent marker; 
-    font-size:45px; 
-    color:black; 
-    text-decoration:underline; 
-    text-align:center;
-}
-.competences {
-    position:relative; 
-    margin-bottom:300px; 
-    margin-top:300px;
+.dates {
+  font-size:15px; 
+  font-style:italic; 
+  font-family:handlee; 
 }
 
 .competences h6 {
-    font-family:handlee; 
-    font-size:25px; 
-    color:black; 
-    font-style:italic; 
-    text-align:center;
-}
-
-.competences_1 {
-    font-family:handlee; 
+  font-size:40px; 
+  font-family:permanent marker; 
+  text-decoration:underline; 
+  text-align:center;
+  margin-bottom:40px;
 }
 
 .competences h1 {
-    font-family:handlee; 
-    font-size:25px; 
-    color:black; 
-    font-style:italic; 
-    text-align:center;
-    padding:25px; 
-    margin:10px;
-}
-
-.competences_2{
-    font-family:handlee;
-}
-
-.competences_2 ul {
-  float:left;
-  padding:40px; 
-  margin:30px; 
-}
-
-.image {
-  float:right;
-  flex-wrap:wrap;
-  padding:30px; 
-  margin:25px; 
-}
-
-.footer {
-    text-align:center;
-    margin: 10px; 
-    background-color: black;
-    opacity:0.8;
-    font-size:20px; 
-    font-family:handlee;
-    color:white;
-    height:250px;
-}
-
-.footer h4{
-    text-align:center;
-    font-family:permanent marker; 
-    font-size:25px; 
-    color:white; 
-    text-decoration:underline;
-}
-
-.footer h5 {
-  font-size:10px; 
-  font-family:handlee;
-}
-
-.langues {
-  position:relative; 
-  margin-bottom:300px;
-  margin-top:300px;
-  font-family:handlee;
-  margin: 350px;
-}
-
-.langues h6 {
-  font-family:permanent marker; 
-  font-size:45px; 
-  text-decoration:underline;
+  font-size:30px;
+  font-family:handlee; 
+  font-style:italic; 
+  margin-bottom:40px;
   text-align:center;
-  color:black;
+  font-weight:bold;
 }
 
-.progressbar_content {
-  overflow:auto;
-  height:876px;
-  background-color: grey;
+.competences h2 {
+  font-size:30px; 
+  font-family:handlee; 
+  font-style:italic; 
+  text-align:center;
+  font-weight:bold; 
+  margin-bottom:40px;
+}
+
+.progress-bar {
+  background-color:green;
+  font-size:15px; 
+  font-family:handlee; 
+  float:left; 
+  transition: width .6s ease; 
 }
 
 .progress {
-  background-color:grey;
-  border-radius:20px;
-  position:relative;
-  margin: 15px 0;
-  height:30px;
-  width:300px;
+  margin-bottom:50px;
 }
 
-.bar {
-  background-color:green;
-  box-shadow: 0 3px 3px -5px white, 0 2px 5px green;
-  border-radius: 20px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 0;
-  opacity: 0;
-  transition: 1s ease 0.3s;
+.competences progress {
+  margin:30px 20px; 
+  background:whitesmoke;
 }
 
-* {
-    box-sizing:border-box;
+.competences {
+  position:relative; 
+  margin-bottom:300px; 
+  margin-top:300px;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family:handlee; 
-    text-align:center;
-    color:white;
-    font-size:20px;
-}
-  
-/* The actual timeline (the vertical ruler) */
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color:black;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-  
-/* Container around content */
-  .container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-  
-/* The circles on the timeline */
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-  
-/* Place the container to the left */
-  .left {
-    left: 0;
-  }
-  
-/* Place the container to the right */
-  .right {
-    left: 50%;
-}
-  
-/* Add arrows to the left container (pointing right) */
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid black;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent black;
-}
-  
-/* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid black;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
-}
-  
-/* Fix the circle for containers on the right side */
-  .right::after {
-    left: -16px;
-}
-  
- /* The actual content */
-  .content {
-    padding: 20px 30px;
-    background-color:black;
-    position: relative;
-    border-radius: 6px;
-}
-  
-/* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
-    .timeline::after {
-    left: 31px;
-}
-    
-/* Full-width containers */
-    .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-}
-    
-/* Make sure that all arrows are pointing leftwards */
-    .container::before {
-    left: 60px;
-    border: medium solid black;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
-}
-  
-/* Make sure all circles are at the same spot */
-    .left::after, .right::after {
-    left: 15px;
-}
-    
-/* Make all right containers behave like the left ones */
-    .right {
-    left: 0%;
-}
-* {
-    box-sizing: border-box;
-}
-    
-/* The actual timeline (the vertical ruler) */
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family:handlee; 
-    text-align:center;
-    color:white;
-    font-size:20px;
-}
-  
-/* The actual timeline (the vertical ruler) */
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color:black;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-  
-/* Container around content */
-  .container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-  
-/* The circles on the timeline */
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-  
-/* Place the container to the left */
-  .left {
-    left: 0;
-  }
-  
-/* Place the container to the right */
-  .right {
-    left: 50%;
-}
-  
-/* Add arrows to the left container (pointing right) */
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid black;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent black;
-}
-  
-/* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid black;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
-}
-  
-/* Fix the circle for containers on the right side */
-  .right::after {
-    left: -16px;
-}
-  
- /* The actual content */
-  .content {
-    padding: 20px 30px;
-    background-color:black;
-    position: relative;
-    border-radius: 6px;
-}
-  
-/* Media queries - Responsive timeline on screens less than 375px wide */
-  @media screen and (max-width: 375px) {
-    /* Place the timelime to the left */
-    .timeline::after {
-    left: 31px;
-}
-    
-/* Full-width containers */
-    .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-}
-    
-/* Make sure that all arrows are pointing leftwards */
-    .container::before {
-    left: 60px;
-    border: medium solid black;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
-}
-  
-/* Make sure all circles are at the same spot */
-    .left::after, .right::after {
-    left: 15px;
-}
-    
-/* Make all right containers behave like the left ones */
-    .right {
-    left: 0%;
+.footer {
+  margin:20px; 
+  padding:10px 12px; 
+  margin-right:15px; 
+  margin-left:15px; 
+  background-color:white; 
+  font-size:20px; 
+  font-family:handlee; 
+  color:black; 
+  text-align:center;
+  opacity:0.9;
 }
 
-/* responsive telephone */
+.footer h4 {
+  font-size:30px;
+  font-family:permanent marker; 
+  text-decoration:underline;
+  color:black;
+  text-align:center;
+  margin-bottom:40px;
+}
 
-@media screen and (max-width: 375px) {
-  
-  body {
-    background-image : url(alex-loup-bj8L_87yxcA-unsplash.jpg);
-    background-position:center; 
-    background-attachment: fixed;
-  }
-
-  .nav {
-    font-size:15px;
-  }
-
-  .nav li {
-    display:flex; 
-    flex-direction:column;
-  }
-
-  .accueil {
-    position:relative; 
-    margin-bottom:150px;
-    margin-top:10px;
-  }
-
-  .accueil  h1 {
-    font-size:40px; 
-    margin:auto;
-    padding:auto;
-  }
-
-  .me h2 {
-    font-size:20px;
-  }
-
-  .parcours h3 {
-    font-size:20px;
-  }
-
-  .stage h4 {
-    font-size:20px; 
-  }
-
-  .competences h5 {
-    font-size:20px; 
-  }
-
-  .competences h6 {
-    font-size:15px; 
-  }
-
-  .competences_2 h1 {
-    font-size:15px; 
-  }
-
-  .langues h6 {
-    font-size:20px;
-  }
-
-  .footer h4 {
-    font-size:20px;
-  }
+.footer p {
+  margin-bottom:20px; 
 }

@@ -47,14 +47,5 @@ anime.timeline({loop: true})
     delay: 1000
   });
  
-  //==================================================================================================================================
-  // Script ProgressBar
-  //==================================================================================================================================
-  for (var i = 0; i < 4; i++) {
-       var progress = document.querySelector('.progress-done-'+i);
+ 
 
-       progress.style.width = progress.getAttribute('data-done-'+i) + '%';
-       progress.style.opacity = 1;
-  };
-
-  
