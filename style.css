@@ -503,5 +503,42 @@ body {
     background-repeat:no-repeat; 
     background-size:cover; 
   }
+
+  .button1 {
+    font-family:handlee; 
+    font-weight:bold; 
+    font-size:15px;
+    color:white;
+    border:1px solid black; 
+    display:inline-block;
+    margin-top:20px; 
+    padding:18px 50px; 
+    border-radius:18px; 
+    text-align:center;
+    background:black;
+    transition:all 0.3s ease-in 0s;
+    margin-left:10%;
+    opacity:0.7;
+    width:80%; 
+  }
+
+  .button2 {
+    font-family:handlee; 
+    transition:all 0.3s ease-in 0s;
+    font-weight:bold; 
+    font-size:15px;
+    color:white;
+    border:1px solid black; 
+    display:inline-block;
+    margin-top:20px; 
+    padding:18px 50px; 
+    border-radius:18px; 
+    text-align:center;
+    background:black;
+    margin-left:10%;
+    width:80%; 
+    opacity:0.7;
+  }
+  
 }
 
