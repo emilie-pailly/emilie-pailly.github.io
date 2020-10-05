@@ -347,7 +347,7 @@ body {
 .main-timeline .timeline:nth-child(4n+4) .timeline-content{
     background: linear-gradient(to left,#525156,#686C75 22%);
 }
-@media screen and (max-width:325px){
+@media screen and (max-width:320px){
     .main-timeline:before{
         left: 19px;
         transform: translateX(0);
@@ -378,7 +378,7 @@ body {
         left: -25px;
     }
 }
-@media screen and (max-width:325px){
+@media screen and (max-width:320px){
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(even) .timeline-content{
         padding: 0 0 0 65px;
@@ -485,7 +485,7 @@ body {
   margin-bottom:20px; 
 }
 
-@media screen and (max-width:325px;) {
+@media screen and (max-width:320px;) {
   body {
     background-image:url(roberto-nickson-5ui0tfMC5ts-unsplash);
     background-size:cover; 
