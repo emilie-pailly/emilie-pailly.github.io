@@ -495,13 +495,4 @@ body {
     overflow-x:hidden;
   }
 
-  .container-fluid h2 {
-    font-size:25px; 
-    font-family:handlee; 
-    text-align:center;
-    margin-bottom:35px;
-    color:white;
-    width:245px; 
-    height:78px;
-  }
 }
