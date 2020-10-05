@@ -14,6 +14,13 @@ body {
   background-size:cover; 
 }
 
+.flex {
+  align-items:center; 
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+}
+
 .modal-wrap {
   height:100vh; 
   pointer-events:none; 
@@ -128,7 +135,6 @@ body {
 
 .me {
   position:relative;
-  margin-top:350px; 
   margin-bottom:300px; 
 }
 
