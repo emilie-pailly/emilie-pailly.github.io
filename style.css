@@ -495,13 +495,4 @@ body {
     overflow-x:hidden;
   }
 
-  .parallax {
-    height:250px; 
-    width:150px;
-    background-attachment:scroll; 
-    background-position:center; 
-    background-repeat:no-repeat; 
-    background-size:cover; 
-  }
-
 }
