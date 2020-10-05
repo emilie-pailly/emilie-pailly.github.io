@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site</title>
+    <title>Portfolio PAILLY Emilie</title>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -19,42 +19,47 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-default navbar fixed-top">
-        <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#accueil">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="accueil">
-                <ul class="nav navbar-nav">
-                    <li class>
-                        <a href="#about">Accueil</a>
-                    </li>
-                    <li class>
-                        <a href="#me">A propos</a>
-                    </li>
-                    <li class>
-                        <a href="#parcours">Parcours</a>
-                    </li>
-                    <li class>
-                        <a href="#experiences">Expériences</a>
-                    </li>
-                    <li class>
-                        <a href="#competences">Compétences</a>
-                    </li>
-                    <li class>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+<body class>
+    <div class="modal-wrap-flex">
+        <div class="mask"></div>
+    <!--Navbar-->
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+        <nav class="navbar navbar-default navbar fixed-top">
+            <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#accueil">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="accueil">
+                    <ul class="nav navbar-nav">
+                        <li class>
+                            <a href="#about">Accueil</a>
+                        </li>
+                        <li class>
+                            <a href="#me">A propos</a>
+                        </li>
+                        <li class>
+                            <a href="#parcours">Parcours</a>
+                        </li>
+                        <li class>
+                            <a href="#experiences">Expériences</a>
+                        </li>
+                        <li class>
+                            <a href="#competences">Compétences</a>
+                        </li>
+                        <li class>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
-    </nav>
-
-    <section class="header" id="about">
+            </nav>
+    </body>
+    </div>
+    <section id="about" class="container-fluid">
         <h1>BIENVENUE</h1>
         <h2>Je m'appelle PAILLY Emilie et je suis apprentie Développeuse à la CCI</h2>
         <a href="cv_2020.pdf" target="_blank" class="button1">Télécharger mon CV</a>
@@ -63,33 +68,33 @@
 
     <section class="me" id="me">
         <div class="parallax">
-        <div style="height:470px; background-color:white; opacity:0.9; margin-left:15px; margin-right:15px;">
-            <h3>Qui suis-je?</h3>
-            <div class="photo">
-            <img src="20200831_172948 (2).jpg" style="width:300;height:250px; border-radius:50%;">
-             <p>Je m'appelle PAILLY Emilie, j'ai obtenu mon Baccalauréat Littéraire spécialité anglais en 2016 au lycée
-                 Anova à Paita. En ce qui concerne mes poursuites d'études, en 2017 j'ai commencé une licence LEA
-                 (Espagnol-Anglais) à l'Université que je n'ai pas aimé... Pourtant j'aime les langues et c'est la raison
-                 pour laquelle j'ai souhaité intégrer cette licence mais je trouvais que c'était beaucoup trop théorique.
-                 Je
-                 me suis donc orientée vers un BTS afin d'avoir des expériences professionnelles grâce aux stages. J'ai
-                 donc commencé le BTS Tourisme en 2018 au lycée Lapérouse
-                 que j'ai obtenu en 2019. Après l'obtention de mon BTS, je souhaitais avoir un diplôme différent de
-                 celui-ci afin de me spécialiser dans un domaine plus précis pour acquérir des compétences et des
-                 expériences
-                 différentes pour mon avenir professionnel. En faisant des recherches, j'ai vu la formation "Développeur
-                 Web
-                 et Web Mobile" que j'ai trouvé très intéressante. En effet, lors de mon BTS Tourisme j'avais déjà été
-                 amené
-                 à travailler sur la réalisation d'un site internet à l'aide d'un CMS ainsi qu'un blog et c'est cela qui
-                 m'a donné envie de poursuivre mes études dans ce domaine. J'ai donc décidé de
-                 postuler à cette formation afin d'approfondir mes connaissances et d'en acquérir de nouvelles ... Me
-                 voilà
-                 maintenant alternante au sein de la formation "Développeur Web et Web Mobile" promo 2020-2022.</p>
-             </div>
-         </div>
-        </div>
-         <div class="parallax"></div>
+            <div style="height:695px; background-color:white; opacity:0.9; margin-left:15px; margin-right:15px;">
+                <div class="container">
+                <h3>Qui suis-je?</h3>
+                <div class="col-xs-8 col-md-4 profile picture"></div>
+                <img src="20200831_172948 (2).jpg" style="width:350;height:300px; border-radius:50%;">
+                <p>Je m'appelle PAILLY Emilie, j'ai obtenu mon Baccalauréat Littéraire spécialité anglais en 2016 au lycée
+                    Anova à Paita. En ce qui concerne mes poursuites d'études, en 2017 j'ai commencé une licence LEA
+                    (Espagnol-Anglais) à l'Université que je n'ai pas aimé... Pourtant j'aime les langues et c'est la raison
+                    pour laquelle j'ai souhaité intégrer cette licence mais je trouvais que c'était beaucoup trop théorique.
+                    Je
+                    me suis donc orientée vers un BTS afin d'avoir des expériences professionnelles grâce aux stages. J'ai
+                    donc commencé le BTS Tourisme en 2018 au lycée Lapérouse
+                    que j'ai obtenu en 2019. Après l'obtention de mon BTS, je souhaitais avoir un diplôme différent de
+                    celui-ci afin de me spécialiser dans un domaine plus précis pour acquérir des compétences et des
+                    expériences
+                    différentes pour mon avenir professionnel. En faisant des recherches, j'ai vu la formation "Développeur
+                    Web
+                    et Web Mobile" que j'ai trouvé très intéressante. En effet, lors de mon BTS Tourisme j'avais déjà été
+                    amené
+                    à travailler sur la réalisation d'un site internet à l'aide d'un CMS ainsi qu'un blog et c'est cela qui
+                    m'a donné envie de poursuivre mes études dans ce domaine. J'ai donc décidé de
+                    postuler à cette formation afin d'approfondir mes connaissances et d'en acquérir de nouvelles ... Me
+                    voilà
+                    maintenant alternante au sein de la formation "Développeur Web et Web Mobile" promo 2020-2022.</p>"
+                </div>
+            </div>
+                <div class="parallax">
     </section>
 
     <section class="parcours" id="parcours">
@@ -297,7 +302,7 @@
         </section>
 
         <section class="footer" id="contact">
-            <a href="#accueil">
+            <a href="#about">
                 <i class="fas fa-chevron-up"></i>
             </a>
             <h4>Contact</h4>
@@ -307,4 +312,6 @@
         </section>
 </body>
 </html>
+    </body>
+
 

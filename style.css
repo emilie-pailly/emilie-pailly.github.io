@@ -7,12 +7,26 @@ body {
 }
 
 .parallax {
-  background-image:url(roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
   height:100%; 
   background-attachment:scroll; 
   background-position:center; 
   background-repeat:no-repeat; 
   background-size:cover; 
+}
+
+.modal-wrap {
+  height:100vh; 
+  pointer-events:none; 
+  position:fixed; 
+  width:100vw; 
+  z-index:100;
+}
+
+.flex {
+  align-items:center;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
 }
 
 .navbar-header {
@@ -41,13 +55,13 @@ body {
   background-color:black;
 }
 
-.header {
+.container-fluid {
   position:relative; 
   margin-bottom:15px; 
   margin-top:50px; 
 }
 
-.header h1 {
+.container-fluid h1 {
   font-size:100px; 
   text-align:center; 
   font-family:handlee; 
@@ -56,7 +70,7 @@ body {
   color:white;
 }
 
-.header h2 {
+.container-fluid h2 {
   font-size:40px; 
   font-family:handlee; 
   text-align:center;
@@ -64,20 +78,28 @@ body {
   color:white;
 }
 
+.container-fluid {
+  padding-right:15px; 
+  padding-left:15px; 
+  margin-right:auto; 
+  margin-left:auto;
+}
+
 .button1 {
   font-family:handlee; 
   font-weight:bold; 
   font-size:30px;
   color:white;
-  border:1px solid white; 
+  border:1px solid black; 
   display:inline-block;
   margin-top:20px; 
   padding:18px 50px; 
   border-radius:18px; 
   text-align:center;
-  background:transparent;
+  background:black;
   transition:all 0.3s ease-in 0s;
   margin-left:250px;
+  opacity:0.7;
 }
 
 .button2 {
@@ -86,15 +108,15 @@ body {
   font-weight:bold; 
   font-size:30px;
   color:white;
-  border:1px solid white;; 
+  border:1px solid black; 
   display:inline-block;
   margin-top:20px; 
   padding:18px 50px; 
   border-radius:18px; 
   text-align:center;
-  background:transparent;
+  background:black;
   margin-right:30px;
-  margin-bottom:150px;
+  opacity:0.7;
 }
 
 .me h3 {
@@ -110,9 +132,10 @@ body {
   margin-bottom:300px; 
 }
 
-.photo {
+.profile picture {
   display:flex; 
   margin:15px; 
+  float:none; 
 }
 
 .me p {
@@ -455,3 +478,8 @@ body {
 .footer p {
   margin-bottom:20px; 
 }
+
+@media screen and (max-width:768px) {
+  
+}
+
