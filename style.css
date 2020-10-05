@@ -64,7 +64,6 @@ body {
 
 .container-fluid {
   position:relative; 
-  margin-bottom:15px; 
   margin-top:50px; 
 }
 
@@ -136,6 +135,7 @@ body {
 .me {
   position:relative;
   margin-bottom:300px; 
+  margin-top:0;
 }
 
 .profile picture {
