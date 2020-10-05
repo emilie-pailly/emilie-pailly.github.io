@@ -504,13 +504,16 @@ body {
     background-size:cover; 
   }
 
-  .button1 {
+  .button1 .button2 {
     font-family:handlee; 
     font-weight:bold; 
     font-size:15px;
     color:white;
     border:1px solid black; 
-    display:inline-block;
+    display:flex;
+    flex-direction:column; 
+    justify-content:center;
+    align-items:center;
     margin-top:20px; 
     padding:18px 50px; 
     border-radius:18px; 
@@ -522,23 +525,4 @@ body {
     width:80%; 
   }
 
-  .button2 {
-    font-family:handlee; 
-    transition:all 0.3s ease-in 0s;
-    font-weight:bold; 
-    font-size:15px;
-    color:white;
-    border:1px solid black; 
-    display:inline-block;
-    margin-top:20px; 
-    padding:18px 50px; 
-    border-radius:18px; 
-    text-align:center;
-    background:black;
-    margin-left:10%;
-    width:80%; 
-    opacity:0.7;
-  }
-
-}
 
