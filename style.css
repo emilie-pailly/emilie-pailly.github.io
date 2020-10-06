@@ -495,4 +495,8 @@ body {
     overflow-x:hidden;
   }
 
+  .parallax {
+    height:1000px; 
+  }
+
 }
