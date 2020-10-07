@@ -75,7 +75,7 @@ body {
 }
 
 .item-center h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: handlee;
   text-align: center;
   margin-bottom: 65px;
@@ -89,36 +89,13 @@ body {
   margin-left: auto;
 }
 
-/* .button1{
-  font-family: handlee;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  border: 1px solid black;
-  margin-top: 20px;
-  padding: 18px 50px;
-  border-radius: 18px;
-  text-align: center;
-  background: black;
-  transition: all 0.3s ease-in 0s;
-  opacity: 0.7; */
-/* } */
+.button1 {
+  margin-bottom:150px; 
+}
 
-/* .button2 {
-  font-family: handlee;
-  transition: all 0.3s ease-in 0s;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  border: 1px solid black;
-  margin-top: 20px;
-  padding: 18px 50px;
-  border-radius: 18px;
-  text-align: center;
-  background: black;
-  opacity: 0.7;
-} */
-
+.button2 {
+  margin-bottom:150px;
+}
 .me h3 {
   font-size: 40px;
   font-family: permanent marker;
@@ -201,7 +178,7 @@ body {
 
 .lieu {
   margin-bottom: 25px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .experiences h5 {
@@ -459,7 +436,7 @@ body {
 }
 
 .competences h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: handlee;
   font-style: italic;
   margin-bottom: 40px;
@@ -468,7 +445,7 @@ body {
 }
 
 .competences h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: handlee;
   font-style: italic;
   text-align: center;
@@ -478,7 +455,7 @@ body {
 
 .progress-bar {
   background-color: green;
-  font-size: 15px;
+  font-size: 10px;
   font-family: handlee;
   float: left;
   transition: width .6s ease;
