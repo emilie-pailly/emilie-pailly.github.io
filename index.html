@@ -25,6 +25,7 @@
 <body class>
     <div class="modal-wrap-flex">
         <div class="mask"></div>
+
         <body data-spy="scroll" data-target=".navbar" data-offset="60">
             <nav class="navbar navbar-default navbar fixed-top">
                 <div class="container">
@@ -64,33 +65,42 @@
     <section id="about" class="item-center">
         <h1>BIENVENUE</h1>
         <h2>Je m'appelle PAILLY Emilie et je suis apprentie Développeuse à la CCI</h2>
-        <a href="cv_2020.pdf" target="_blank" class="button1">Télécharger mon CV</a>
-        <a href="lettre_de_motivation.pdf" target="_blank" class="button2">Télécharger ma lettre de motivation</a>
+        <div style="display: flex;">
+            <div style="width: 50%;text-align: center;" class="button1">
+                <button>
+                    <a href="cv_2020.pdf" target="_blank">Télécharger mon<br> CV</a>
+                </button>
+            </div>
+            <div style="width: 50%;text-align: center;" class="button2">
+                <button>
+                    <a href="lettre_de_motivation.pdf" target="_blank">Télécharger ma lettre de
+                        motivation</a>
+                </button>
+            </div>
+        </div>
     </section>
 
     <section class="me" id="me">
-        <div id="pt" class="canvas">
-            <canvas id="canvas" width="550" height="858" style="width:275px; height:429px;">
-            </canvas>
-        </div>
         <div class="parallax"></div>
-        <div style="height:500px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
+        <div style="height:100%; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
             <div class="flex">
                 <h3>Qui suis-je ?</h3>
                 <div class="col-xs-8 col-md-4 profile picture"></div>
-                <img src="20200831_172948 (2).jpg" style="width:350;height:300px; border-radius:50%;">
+                <img src="20200831_172948 (2).jpg" style="width:300px;height:auto; border-radius:50%;">
                 <p>Diplômée d'un Baccalauréat Littéaire spécialité anglais en 2016 puis d'un BTS Tourisme en 2019, j'ai
                     choisi de poursuivre mes études dans un domaine différent de mes diplômes afin d'acquérir des
                     connaissances et des expériences professionnelles diversifées pour mon avenir professionnel. J'ai
-                    donc postulé à la CCI pour la formation en alternance "Développeur Web et Web Mobile" que je trouvais
-                    très intéressante et me voilà maintenant alternante au sein de cette formation pour la promo 2020-2022.</p>
+                    donc postulé à la CCI pour la formation en alternance "Développeur Web et Web Mobile" que je
+                    trouvais
+                    très intéressante et me voilà maintenant alternante au sein de cette formation pour la promo
+                    2020-2022.</p>
             </div>
         </div>
     </section>
 
     <section class="parcours" id="parcours">
         <div class="parallax"></div>
-        <div style="height:970px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
+        <div style="height:100%; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
             <h4>Mon parcours :</h4>
             <div class="container">
                 <div class="row">
@@ -145,7 +155,7 @@
 
     <section class="experiences" id="experiences">
         <div class="parallax"></div>
-        <div style="height:840px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px">
+        <div style="height:100%; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px">
             <h5>Mes expériences professionnelles :</h5>
             <div class="container">
                 <div class="row">
@@ -208,7 +218,7 @@
 
     <section class="competences" id="competences">
         <div class="parallax"></div>
-        <div style="height:660px; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
+        <div style="height:100%; background-color:white; opacity:0.9; margin-right:15px; margin-left:15px;">
             <h6>Mes compétences : </h6>
             <h1>Outils bureautiques</h1>
             <div class="container">
