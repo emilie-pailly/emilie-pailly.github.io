@@ -376,7 +376,7 @@ body {
   background: linear-gradient(to left, #525156, #686C75 22%);
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:400px) {
   .main-timeline:before {
     left: 19px;
     transform: translateX(0);
