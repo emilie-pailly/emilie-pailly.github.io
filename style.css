@@ -5,7 +5,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
+​
 .parallax {
   height: 100%;
   background-attachment: scroll;
@@ -13,58 +13,58 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+​
 .flex {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+​
 .modal-wrap {
   pointer-events: none;
   position: fixed;
   z-index: 100;
 }
-
+​
 .flex {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+​
 .navbar-header {
   font-size: 25px;
   font-family: handlee;
 }
-
+​
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
-
+​
 .navbar-nav {
   margin: 7.5px -15px;
 }
-
+​
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
 }
-
+​
 .icon-bar {
   background-color: black;
 }
-
+​
 .container-fluid {
   position: relative;
   margin-top: 50px;
 }
-
+​
 .item-center h1 {
   font-size: 50px;
   text-align: center;
@@ -73,7 +73,7 @@ body {
   margin-top: 200px;
   color: white;
 }
-
+​
 .item-center h2 {
   font-size: 40px;
   font-family: handlee;
@@ -81,14 +81,14 @@ body {
   margin-bottom: 65px;
   color: white;
 }
-
+​
 .item-center {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-
+​
 /* .button1 {
   font-family: handlee;
   font-weight: bold;
@@ -103,7 +103,7 @@ body {
   transition: all 0.3s ease-in 0s;
   opacity: 0.7; */
 /* } */
-
+​
 /* .button2 {
   font-family: handlee;
   transition: all 0.3s ease-in 0s;
@@ -118,38 +118,38 @@ body {
   background: black;
   opacity: 0.7;
 } */
-
+​
 .me h3 {
   font-size: 40px;
   font-family: permanent marker;
   text-align: center;
   text-decoration: underline;
 }
-
+​
 .me {
   position: relative;
   margin-top: 0;
 }
-
+​
 .profile picture {
   display: flex;
   margin: 15px;
   float: none;
 }
-
+​
 .me p {
   font-size: 20px;
   font-family: handlee;
   text-align: justify;
   margin: 15px;
 }
-
+​
 .parcours {
   position: relative;
   margin-top: 300px;
   margin-bottom: 300px;
 }
-
+​
 .parcours h4 {
   font-family: permanent marker;
   font-size: 40px;
@@ -157,7 +157,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-
+​
 .education-block {
   width: 100%;
   margin: 0 auto;
@@ -172,7 +172,7 @@ body {
   margin-bottom: 15px;
   height: 280px;
 }
-
+​
 .green-divider {
   width: 100px;
   height: 2px;
@@ -181,29 +181,29 @@ body {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-
+​
 .annee {
   font-style: italic;
   margin-bottom: 25px;
   font-size: 15px;
 }
-
+​
 .education-block i {
   font-size: 25px;
 }
-
+​
 .diplome {
   font-weight: bold;
   margin-bottom: 25px;
   font-size: 22px;
   color: brown;
 }
-
+​
 .lieu {
   margin-bottom: 25px;
   font-size: 15px;
 }
-
+​
 .experiences h5 {
   font-size: 40px;
   font-family: permanent marker;
@@ -211,17 +211,17 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-
+​
 .experiences {
   position: relative;
   margin-top: 300px;
   margin-bottom: 300px;
 }
-
+​
 .main-timeline {
   font-family: 'Roboto', sans-serif;
 }
-
+​
 .main-timeline:before {
   content: '';
   background-color: black;
@@ -233,13 +233,13 @@ body {
   left: 50%;
   top: 0;
 }
-
+​
 .main-timeline:after {
   content: '';
   display: block;
   clear: both;
 }
-
+​
 .main-timeline .timeline {
   width: 50%;
   padding: 0 0 0 25px;
@@ -247,7 +247,7 @@ body {
   float: right;
   position: relative;
 }
-
+​
 .main-timeline .timeline:after {
   content: '';
   background-color: #734D8E;
@@ -260,7 +260,7 @@ body {
   left: -7px;
   top: 50%;
 }
-
+​
 .main-timeline .timeline-content {
   color: #555;
   background: linear-gradient(to right, #734D8E, #B26BC6 22%);
@@ -269,11 +269,11 @@ body {
   position: relative;
   clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
 }
-
+​
 .main-timeline .timeline-content:hover {
   text-decoration: none;
 }
-
+​
 .main-timeline .timeline-icon {
   color: #fff;
   font-size: 45px;
@@ -282,7 +282,7 @@ body {
   top: 50%;
   left: 25px;
 }
-
+​
 .main-timeline .inner-content {
   color: #555;
   background-color: black;
@@ -294,7 +294,7 @@ body {
   font-size: 20px;
   text-align: center;
 }
-
+​
 .main-timeline .inner-content:before {
   content: '';
   background-color: black;
@@ -307,7 +307,7 @@ body {
   top: 50%;
   z-index: -1;
 }
-
+​
 .main-timeline .title {
   font-size: 20px;
   font-weight: 700;
@@ -315,141 +315,141 @@ body {
   text-transform: uppercase;
   margin: 0 0 5px;
 }
-
+​
 .main-timeline .description {
   font-size: 14px;
   letter-spacing: 1px;
   margin: 0;
 }
-
+​
 .main-timeline .timeline:nth-child(even) {
   padding: 0 25px 0 0;
   margin: 0 10px 30px 0;
   float: left;
 }
-
+​
 .main-timeline .timeline:nth-child(even):after {
   left: auto;
   right: -8px;
 }
-
+​
 .main-timeline .timeline:nth-child(even) .timeline-content {
   padding: 0 120px 0 0;
   clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0 100%, 0 0);
 }
-
+​
 .main-timeline .timeline:nth-child(even) .timeline-icon {
   left: auto;
   right: 25px;
 }
-
+​
 .main-timeline .timeline:nth-child(even) .inner-content {
   padding: 15px 10px 15px 15px;
 }
-
+​
 .main-timeline .timeline:nth-child(even) .inner-content:before {
   left: auto;
   right: -37px;
 }
-
+​
 .main-timeline .timeline:nth-child(4n+2):after {
   background-color: #1c6f82;
 }
-
+​
 .main-timeline .timeline:nth-child(4n+2) .timeline-content {
   background: linear-gradient(to left, #1c6f82, #4491A2 22%);
 }
-
+​
 .main-timeline .timeline:nth-child(4n+3):after {
   background-color: #4e5db2;
 }
-
+​
 .main-timeline .timeline:nth-child(4n+3) .timeline-content {
   background: linear-gradient(to right, #4e5db2, #7582D1 22%);
 }
-
+​
 .main-timeline .timeline:nth-child(4n+4):after {
   background-color: #525156;
 }
-
+​
 .main-timeline .timeline:nth-child(4n+4) .timeline-content {
   background: linear-gradient(to left, #525156, #686C75 22%);
 }
-
+​
 @media screen and (max-width:420px) {
   .main-timeline:before {
     left: 19px;
     transform: translateX(0);
   }
-
+​
   .main-timeline .timeline,
   .main-timeline .timeline:nth-child(even) {
     width: 100%;
     margin: 0 0 30px;
     padding: 0 0 0 25px;
   }
-
+​
   .main-timeline .timeline:after,
   .main-timeline .timeline:nth-child(even):after {
     left: 3px;
   }
-
+​
   .main-timeline .timeline-icon,
   .main-timeline .timeline:nth-child(even) .timeline-icon {
     font-size: 30px;
     left: 23px;
   }
-
+​
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(even) .timeline-content {
     padding: 0 0 0 90px;
     clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
   }
-
+​
   .main-timeline .inner-content:before,
   .main-timeline .timeline:nth-child(even) .inner-content:before {
     width: 50px;
     left: -25px;
   }
 }
-
+​
 @media screen and (max-width:360px) {
-
+​
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(even) .timeline-content {
     padding: 0 0 0 65px;
     clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
   }
-
+​
   .main-timeline .timeline-icon,
   .main-timeline .timeline:nth-child(even) .timeline-icon {
     font-size: 21px;
     left: 9px;
   }
-
+​
   .main-timeline .title {
     font-size: 18px;
   }
 }
-
+​
 .entreprise {
   font-size: 20px;
   color: brown;
   text-decoration: underline;
   margin-bottom: 25px;
 }
-
+​
 .poste {
   margin-bottom: 25px;
   font-weight: bold;
 }
-
+​
 .dates {
   font-size: 15px;
   font-style: italic;
   font-family: handlee;
 }
-
+​
 .competences h6 {
   font-size: 40px;
   font-family: permanent marker;
@@ -457,7 +457,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-
+​
 .competences h1 {
   font-size: 30px;
   font-family: handlee;
@@ -466,7 +466,7 @@ body {
   text-align: center;
   font-weight: bold;
 }
-
+​
 .competences h2 {
   font-size: 30px;
   font-family: handlee;
@@ -475,7 +475,7 @@ body {
   font-weight: bold;
   margin-bottom: 40px;
 }
-
+​
 .progress-bar {
   background-color: green;
   font-size: 15px;
@@ -483,22 +483,22 @@ body {
   float: left;
   transition: width .6s ease;
 }
-
+​
 .progress {
   margin-bottom: 50px;
 }
-
+​
 .competences progress {
   margin: 30px 20px;
   background: whitesmoke;
 }
-
+​
 .competences {
   position: relative;
   margin-bottom: 300px;
   margin-top: 300px;
 }
-
+​
 .footer {
   margin: 20px;
   padding: 10px 12px;
@@ -511,7 +511,7 @@ body {
   text-align: center;
   opacity: 0.9;
 }
-
+​
 .footer h4 {
   font-size: 30px;
   font-family: permanent marker;
@@ -520,11 +520,555 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-
+​
 .footer p {
   margin-bottom: 20px;
 }
+​
+@media screen and (max-width:360px) {
+  body {
+    /* background-image: url(roberto-nickson-5ui0tfMC5ts-unsplash); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+  }
+}
+Réduire
 
+
+
+Nouveau
+22 h 34
+style.css 
+body {
+  background-image: url(roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+​
+.parallax {
+  height: 100%;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+​
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+​
+.modal-wrap {
+  pointer-events: none;
+  position: fixed;
+  z-index: 100;
+}
+​
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+​
+.navbar-header {
+  font-size: 25px;
+  font-family: handlee;
+}
+​
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+​
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+​
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+​
+.icon-bar {
+  background-color: black;
+}
+​
+.container-fluid {
+  position: relative;
+  margin-top: 50px;
+}
+​
+.item-center h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: handlee;
+  margin-bottom: 40px;
+  margin-top: 200px;
+  color: white;
+}
+​
+.item-center h2 {
+  font-size: 40px;
+  font-family: handlee;
+  text-align: center;
+  margin-bottom: 65px;
+  color: white;
+}
+​
+.item-center {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+​
+/* .button1 {
+  font-family: handlee;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 18px;
+  text-align: center;
+  background: black;
+  transition: all 0.3s ease-in 0s;
+  opacity: 0.7; */
+/* } */
+​
+/* .button2 {
+  font-family: handlee;
+  transition: all 0.3s ease-in 0s;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 18px;
+  text-align: center;
+  background: black;
+  opacity: 0.7;
+} */
+​
+.me h3 {
+  font-size: 40px;
+  font-family: permanent marker;
+  text-align: center;
+  text-decoration: underline;
+}
+​
+.me {
+  position: relative;
+  margin-top: 0;
+}
+​
+.profile picture {
+  display: flex;
+  margin: 15px;
+  float: none;
+}
+​
+.me p {
+  font-size: 20px;
+  font-family: handlee;
+  text-align: justify;
+  margin: 15px;
+}
+​
+.parcours {
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+​
+.parcours h4 {
+  font-family: permanent marker;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40px;
+}
+​
+.education-block {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: black;
+  opacity: 0.9;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  font-family: handlee;
+  margin-bottom: 15px;
+  height: 280px;
+}
+​
+.green-divider {
+  width: 100px;
+  height: 2px;
+  background: white;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+​
+.annee {
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+​
+.education-block i {
+  font-size: 25px;
+}
+​
+.diplome {
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: brown;
+}
+​
+.lieu {
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+​
+.experiences h5 {
+  font-size: 40px;
+  font-family: permanent marker;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40px;
+}
+​
+.experiences {
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+​
+.main-timeline {
+  font-family: 'Roboto', sans-serif;
+}
+​
+.main-timeline:before {
+  content: '';
+  background-color: black;
+  height: 100%;
+  width: 15px;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+​
+.main-timeline:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+​
+.main-timeline .timeline {
+  width: 50%;
+  padding: 0 0 0 25px;
+  margin: 0 0 30px 10px;
+  float: right;
+  position: relative;
+}
+​
+.main-timeline .timeline:after {
+  content: '';
+  background-color: #734D8E;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px black, 0 0 10px #333;
+  transform: translateY(-50%);
+  position: absolute;
+  left: -7px;
+  top: 50%;
+}
+​
+.main-timeline .timeline-content {
+  color: #555;
+  background: linear-gradient(to right, #734D8E, #B26BC6 22%);
+  padding: 0 0 0 120px;
+  display: block;
+  position: relative;
+  clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
+}
+​
+.main-timeline .timeline-content:hover {
+  text-decoration: none;
+}
+​
+.main-timeline .timeline-icon {
+  color: #fff;
+  font-size: 45px;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 25px;
+}
+​
+.main-timeline .inner-content {
+  color: #555;
+  background-color: black;
+  min-height: 110px;
+  padding: 15px 15px 15px 0;
+  position: relative;
+  color: white;
+  font-family: handlee;
+  font-size: 20px;
+  text-align: center;
+}
+​
+.main-timeline .inner-content:before {
+  content: '';
+  background-color: black;
+  height: 98%;
+  width: 80px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: -37px;
+  top: 50%;
+  z-index: -1;
+}
+​
+.main-timeline .title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+}
+​
+.main-timeline .description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+​
+.main-timeline .timeline:nth-child(even) {
+  padding: 0 25px 0 0;
+  margin: 0 10px 30px 0;
+  float: left;
+}
+​
+.main-timeline .timeline:nth-child(even):after {
+  left: auto;
+  right: -8px;
+}
+​
+.main-timeline .timeline:nth-child(even) .timeline-content {
+  padding: 0 120px 0 0;
+  clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0 100%, 0 0);
+}
+​
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+  left: auto;
+  right: 25px;
+}
+​
+.main-timeline .timeline:nth-child(even) .inner-content {
+  padding: 15px 10px 15px 15px;
+}
+​
+.main-timeline .timeline:nth-child(even) .inner-content:before {
+  left: auto;
+  right: -37px;
+}
+​
+.main-timeline .timeline:nth-child(4n+2):after {
+  background-color: #1c6f82;
+}
+​
+.main-timeline .timeline:nth-child(4n+2) .timeline-content {
+  background: linear-gradient(to left, #1c6f82, #4491A2 22%);
+}
+​
+.main-timeline .timeline:nth-child(4n+3):after {
+  background-color: #4e5db2;
+}
+​
+.main-timeline .timeline:nth-child(4n+3) .timeline-content {
+  background: linear-gradient(to right, #4e5db2, #7582D1 22%);
+}
+​
+.main-timeline .timeline:nth-child(4n+4):after {
+  background-color: #525156;
+}
+​
+.main-timeline .timeline:nth-child(4n+4) .timeline-content {
+  background: linear-gradient(to left, #525156, #686C75 22%);
+}
+​
+@media screen and (max-width:420px) {
+  .main-timeline:before {
+    left: 19px;
+    transform: translateX(0);
+  }
+​
+  .main-timeline .timeline,
+  .main-timeline .timeline:nth-child(even) {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0 0 0 25px;
+  }
+​
+  .main-timeline .timeline:after,
+  .main-timeline .timeline:nth-child(even):after {
+    left: 3px;
+  }
+​
+  .main-timeline .timeline-icon,
+  .main-timeline .timeline:nth-child(even) .timeline-icon {
+    font-size: 30px;
+    left: 23px;
+  }
+​
+  .main-timeline .timeline-content,
+  .main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 0 0 0 90px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 0 50%);
+  }
+​
+  .main-timeline .inner-content:before,
+  .main-timeline .timeline:nth-child(even) .inner-content:before {
+    width: 50px;
+    left: -25px;
+  }
+}
+​
+@media screen and (max-width:360px) {
+​
+  .main-timeline .timeline-content,
+  .main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 0 0 0 65px;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
+  }
+​
+  .main-timeline .timeline-icon,
+  .main-timeline .timeline:nth-child(even) .timeline-icon {
+    font-size: 21px;
+    left: 9px;
+  }
+​
+  .main-timeline .title {
+    font-size: 18px;
+  }
+}
+​
+.entreprise {
+  font-size: 20px;
+  color: brown;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+​
+.poste {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+​
+.dates {
+  font-size: 15px;
+  font-style: italic;
+  font-family: handlee;
+}
+​
+.competences h6 {
+  font-size: 40px;
+  font-family: permanent marker;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40px;
+}
+​
+.competences h1 {
+  font-size: 30px;
+  font-family: handlee;
+  font-style: italic;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+​
+.competences h2 {
+  font-size: 30px;
+  font-family: handlee;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+​
+.progress-bar {
+  background-color: green;
+  font-size: 15px;
+  font-family: handlee;
+  float: left;
+  transition: width .6s ease;
+}
+​
+.progress {
+  margin-bottom: 50px;
+}
+​
+.competences progress {
+  margin: 30px 20px;
+  background: whitesmoke;
+}
+​
+.competences {
+  position: relative;
+  margin-bottom: 300px;
+  margin-top: 300px;
+}
+​
+.footer {
+  margin: 20px;
+  padding: 10px 12px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: white;
+  font-size: 20px;
+  font-family: handlee;
+  color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+​
+.footer h4 {
+  font-size: 30px;
+  font-family: permanent marker;
+  text-decoration: underline;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+​
+.footer p {
+  margin-bottom: 20px;
+}
+​
 @media screen and (max-width:360px) {
   body {
     /* background-image: url(roberto-nickson-5ui0tfMC5ts-unsplash); */
