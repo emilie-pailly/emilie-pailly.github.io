@@ -67,7 +67,7 @@ body {
   margin-top:50px; 
 }
 
-.container-fluid h1 {
+.item-center h1 {
   font-size:100px; 
   text-align:center; 
   font-family:handlee; 
@@ -76,7 +76,7 @@ body {
   color:white;
 }
 
-.container-fluid h2 {
+.item-center h2 {
   font-size:40px; 
   font-family:handlee; 
   text-align:center;
@@ -84,7 +84,7 @@ body {
   color:white;
 }
 
-.container-fluid {
+.item-center {
   padding-right:15px; 
   padding-left:15px; 
   margin-right:auto; 
@@ -104,7 +104,6 @@ body {
   text-align:center;
   background:black;
   transition:all 0.3s ease-in 0s;
-  margin-left:250px;
   opacity:0.7;
 }
 
@@ -121,7 +120,6 @@ body {
   border-radius:18px; 
   text-align:center;
   background:black;
-  margin-right:30px;
   opacity:0.7;
 }
 
@@ -347,7 +345,7 @@ body {
 .main-timeline .timeline:nth-child(4n+4) .timeline-content{
     background: linear-gradient(to left,#525156,#686C75 22%);
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .main-timeline:before{
         left: 19px;
         transform: translateX(0);
@@ -378,7 +376,7 @@ body {
         left: -25px;
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(even) .timeline-content{
         padding: 0 0 0 65px;
@@ -485,7 +483,7 @@ body {
   margin-bottom:20px; 
 }
 
-@media screen and (max-width:320px;) {
+@media screen and (max-width:360px;) {
   body {
     background-image:url(roberto-nickson-5ui0tfMC5ts-unsplash);
     background-size:cover; 
