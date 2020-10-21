@@ -505,37 +505,7 @@ body {
   opacity: 0.9;
 }
 
-.portfolio h1 {
-  font-size:30px; 
-  font-family:permanent marker; 
-  text-decoration:underline; 
-  color:white; 
-  text-align:center;
-  margin-bottom:40px;
-}
 
-.portfolio {
-  position: relative;
-  margin-top: 300px;
-  margin-bottom: 300px;
-}
-
-.item-active {
-  text-align:center;
-}
-
-
-.item {
-  text-align:center;
-}
-
-.container p {
-  font-family: handlee; 
-  font-size:20px; 
-  color:white;
-  text-align:center;
-  margin-bottom:60px;
-}
 .footer h4 {
   font-size: 30px;
   font-family: permanent marker;
