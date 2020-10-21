@@ -66,7 +66,7 @@ body {
 }
 
 .item-center h1 {
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   font-family: handlee;
   margin-bottom: 40px;
@@ -75,7 +75,7 @@ body {
 }
 
 .item-center h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: handlee;
   text-align: center;
   margin-bottom: 40px;
@@ -86,7 +86,7 @@ body {
   font-size:25px; 
   font-family:handlee; 
   text-align:center; 
-  margin-bottom:70px; 
+  margin-bottom:30px; 
   color:white;
 }
 
